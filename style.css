@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+}
+
+.btn {
+  width: 80%;
+  background-color: #72777a;
+  border: 9px solid #72777a;
+  border-radius: 25px;
+  margin: 20% auto 0;
+  height: 200px;
+}
+
+.rounded-btn {
+  color: white;
+  background-color: #2db5e4;
+  padding: 8px;
+  border: 2px solid #2db5e4;
+  border-radius: 25px;
+}
+
+#small {
+  margin: 140px 60px 0;
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+  #small {
+    margin: 140px 0 0;
+  }
+
+  .btn {
+    height: 284px;
+  }
+}
